@@ -58,6 +58,7 @@ h2 {
     justify-content: space-between;
     background-size: cover;
     background-position: center;
+    border: 1px solid #fff;
 }
 /*.hlavni-recept img, .recept img {
     filter: brightness(50%);
@@ -126,10 +127,13 @@ h2 {
     }
     .recept {
         min-height: 150px;
-        border-right: 1px solid #fff;
     }
     .recept-nazev {
         font-size: 22px;
+    }
+    .doporucujeme {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
     
 }
